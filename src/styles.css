@@ -1,0 +1,50 @@
+.bar.total rect {
+    fill:#274472;
+  }
+  
+  .bar.positive rect {
+    fill: darkolivegreen;
+  }
+  .bar.negative rect {
+    fill: crimson;
+  }
+  
+  .bar line.connector {
+    stroke: #eee;
+    stroke-width: 1px;
+    /*stroke-dasharray: 3;*/
+  }
+  
+  .bar text {
+    fill: black;
+    font-weight: bold;
+    font: 12px sans-serif;
+    text-anchor: middle;
+  }
+  .bar .text-inside{
+    fill:white;
+    font-size: 10px;
+  }
+  .axis text {
+    font: 10px sans-serif;
+  }
+  .axis--x text{
+    font: 9px sans-serif;
+  }
+  .axis--x--text text{
+    font: 12px sans-serif;
+  }
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #eee;
+    /*stroke: #000;*/
+    shape-rendering: crispEdges;
+    stroke-width: 1px;
+  }
+  
+  .axis .axis--x{
+    fill: none;
+    stroke: #eee;
+    shape-rendering: crispEdges;
+  }
